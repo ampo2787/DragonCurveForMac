@@ -8,23 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		7AAA560B217DB10500D2AD0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA560A217DB10500D2AD0B /* AppDelegate.m */; };
-		7AAA560E217DB10500D2AD0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA560D217DB10500D2AD0B /* ViewController.m */; };
 		7AAA5610217DB10600D2AD0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA560F217DB10600D2AD0B /* Assets.xcassets */; };
 		7AAA5613217DB10600D2AD0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA5611217DB10600D2AD0B /* Main.storyboard */; };
 		7AAA5616217DB10600D2AD0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA5615217DB10600D2AD0B /* main.m */; };
+		7AAA5623217DB18800D2AD0B /* DragonCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA5622217DB18800D2AD0B /* DragonCurve.m */; };
+		7AAA5626217DB56800D2AD0B /* DragonCurveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA5625217DB56800D2AD0B /* DragonCurveViewController.m */; };
+		7AAA5629217DB5EC00D2AD0B /* DragonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA5628217DB5EC00D2AD0B /* DragonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7AAA5606217DB10500D2AD0B /* DragonCurveForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonCurveForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AAA5609217DB10500D2AD0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7AAA560A217DB10500D2AD0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7AAA560C217DB10500D2AD0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7AAA560D217DB10500D2AD0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7AAA560F217DB10600D2AD0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AAA5612217DB10600D2AD0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AAA5614217DB10600D2AD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AAA5615217DB10600D2AD0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7AAA5617217DB10600D2AD0B /* DragonCurveForMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DragonCurveForMac.entitlements; sourceTree = "<group>"; };
+		7AAA5620217DB13500D2AD0B /* Direction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
+		7AAA5621217DB18800D2AD0B /* DragonCurve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragonCurve.h; sourceTree = "<group>"; };
+		7AAA5622217DB18800D2AD0B /* DragonCurve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragonCurve.m; sourceTree = "<group>"; };
+		7AAA5624217DB56800D2AD0B /* DragonCurveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragonCurveViewController.h; sourceTree = "<group>"; };
+		7AAA5625217DB56800D2AD0B /* DragonCurveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragonCurveViewController.m; sourceTree = "<group>"; };
+		7AAA5627217DB5EC00D2AD0B /* DragonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragonView.h; sourceTree = "<group>"; };
+		7AAA5628217DB5EC00D2AD0B /* DragonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,17 +64,46 @@
 		7AAA5608217DB10500D2AD0B /* DragonCurveForMac */ = {
 			isa = PBXGroup;
 			children = (
+				7AAA561F217DB11400D2AD0B /* View */,
+				7AAA561E217DB10F00D2AD0B /* Controller */,
+				7AAA561D217DB10B00D2AD0B /* Model */,
 				7AAA5609217DB10500D2AD0B /* AppDelegate.h */,
 				7AAA560A217DB10500D2AD0B /* AppDelegate.m */,
-				7AAA560C217DB10500D2AD0B /* ViewController.h */,
-				7AAA560D217DB10500D2AD0B /* ViewController.m */,
 				7AAA560F217DB10600D2AD0B /* Assets.xcassets */,
-				7AAA5611217DB10600D2AD0B /* Main.storyboard */,
 				7AAA5614217DB10600D2AD0B /* Info.plist */,
 				7AAA5615217DB10600D2AD0B /* main.m */,
 				7AAA5617217DB10600D2AD0B /* DragonCurveForMac.entitlements */,
 			);
 			path = DragonCurveForMac;
+			sourceTree = "<group>";
+		};
+		7AAA561D217DB10B00D2AD0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AAA5620217DB13500D2AD0B /* Direction.h */,
+				7AAA5621217DB18800D2AD0B /* DragonCurve.h */,
+				7AAA5622217DB18800D2AD0B /* DragonCurve.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AAA561E217DB10F00D2AD0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AAA5624217DB56800D2AD0B /* DragonCurveViewController.h */,
+				7AAA5625217DB56800D2AD0B /* DragonCurveViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AAA561F217DB11400D2AD0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AAA5611217DB10600D2AD0B /* Main.storyboard */,
+				7AAA5627217DB5EC00D2AD0B /* DragonView.h */,
+				7AAA5628217DB5EC00D2AD0B /* DragonView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AAA560E217DB10500D2AD0B /* ViewController.m in Sources */,
+				7AAA5623217DB18800D2AD0B /* DragonCurve.m in Sources */,
+				7AAA5626217DB56800D2AD0B /* DragonCurveViewController.m in Sources */,
 				7AAA5616217DB10600D2AD0B /* main.m in Sources */,
 				7AAA560B217DB10500D2AD0B /* AppDelegate.m in Sources */,
+				7AAA5629217DB5EC00D2AD0B /* DragonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
